@@ -1,2 +1,20 @@
 <!--   http://localhost:4200/contacts-list   -->
 <p>contacts-list works!</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Lp.</th>
+            <th>Nazwisko</th>
+            <th>Imię</th>
+            <th>Nr telefonu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let contact of contacts; let i = index;">
+            <td>{{ i + 1 }}</td>
+            <td>{{ contact.surname }}</td>
+            <td>{{ contact.firstName }}</td>
+            <td>{{ contact.phone }}</td>
+        </tr>
+    </tbody>
+</table>
