@@ -1,3 +1,5 @@
+## Outdated, will upload a new one someday
+
 # AppContacts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
